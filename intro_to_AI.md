@@ -73,3 +73,66 @@ Here are some additional details on the core components:
 - Problem-solving: The system employs search algorithms, heuristics, and optimization techniques to tackle complex problems and find solutions.
 - Planning and decision-making: AI systems can plan future actions and make decisions based on their knowledge, goals, and perceived environment.
 
+## Environment Properties of AI Systems
+
+The environment in which an AI agent operates significantly impacts its performance. Here are some key properties to consider:
+
+- Accessibility: Can the agent fully perceive the environment through its sensors?
+- Determinism: Is the environment predictable, or are there elements of randomness?
+- Static vs. Dynamic: Does the environment remain constant, or does it change over time?
+- Discrete vs. Continuous: Are the states of the environment discrete (finite) or continuous (infinite)?
+
+Example: Self-Driving Car in Different Environments
+
+A self-driving car's performance depends on the environment:
+
+- Highly accessible environment: A well-mapped highway with clear lane markings and predictable traffic is easily perceived by sensors.
+- Deterministic environment: Traffic rules and predictable driver behavior make the environment somewhat deterministic.
+- Dynamic environment: Weather conditions, unexpected obstacles, and unpredictable pedestrian movement pose challenges.
+- Continuous environment: The car's position, speed, and surrounding objects constantly change, requiring continuous decision-making.
+
+## Agents in AI Systems
+Within the realm of AI, agents are intelligent entities that perceive their environment, take actions, and strive to achieve goals. However, not all agents are created equal. Let's explore different types of agents, each with its strengths and limitations:
+
+1. Simple Reflex Agents: The Simplest Response
+
+    - Function: React directly to the current percept (sensory input) based on pre-defined rules. (Source: Stuart Russell and Peter Norvig, Artificial Intelligence: A Modern Approach, 3rd Edition (2021))
+    - Strengths: Simple to design and implement, efficient for well-defined environments.
+    - Weaknesses: No memory of past experiences, limited adaptability to changing environments.
+    - Example: A thermostat that turns on the heater when the temperature falls below a set point (percept) and turns it off when it reaches the desired temperature.
+
+2. Reflex Agents with State: Remembering the Past
+
+    - Function: Similar to simple reflex agents, but they maintain some internal state to track the environment's history.
+    - Strengths: Can handle situations where past actions influence current decisions.
+    - Weaknesses: Limited memory can still restrict adaptability in complex environments.
+    - Example: A vending machine that remembers the amount of money inserted (state) and dispenses the product only when sufficient payment is received.
+
+3. Goal-Based Agents: Driven by Objectives
+
+    - Function: Possess a specific goal and actively seek actions to achieve it.
+    - Strengths: More flexible than reflex agents, capable of planning and reasoning. 
+    - Weaknesses: Requires defining goals explicitly, may struggle in environments with obstacles or unknown paths.
+    - Example: A robot vacuum cleaner programmed with the goal of cleaning an entire room. It uses sensors to navigate and adjust its path based on obstacles.
+
+4. Utility-Based Agents: Making Value Judgments
+
+    - Function: Similar to goal-based agents but consider the "utility" (degree of satisfaction) associated with different outcomes.
+    - Strengths: Can make nuanced decisions based on the desirability of various options.
+    - Weaknesses: Defining utility functions can be complex, especially for subjective goals.
+    - Example: A chess-playing AI agent that evaluates each move based on its potential to lead to a winning position (higher utility).
+
+5. Learning Agents: Continuously Evolving
+
+    - Function: Can learn and improve their performance over time through experience or interaction with the environment.
+    - Strengths: Highly adaptable to changing environments, capable of handling complex and uncertain situations.
+    - Weaknesses: Learning algorithms can be computationally expensive, and may require a large amount of training data.
+    - Example: A recommendation system that learns user preferences based on past interactions and suggests items with high predicted utility for the user.
+
+## Further Reading
+Books:
+- Artificial Intelligence: A Modern Approach by Stuart Russell and Peter Norvig (3rd Edition, 2021): This classic textbook provides a comprehensive introduction to AI concepts, algorithms, and applications.
+- Artificial Intelligence by Melanie Mitchell (McGraw-Hill, 1997): Another well-regarded text offering a broader perspective on AI, including philosophical and historical aspects.
+
+## Analysis for Submission
+- Please write a 2-page paper on a specific problem in your domain of research or interest that you would like to solve with AI. Define the components and justify the environment definition. Write the justification for the approach you would like to take in designing this AI agent. 
