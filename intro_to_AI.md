@@ -1,4 +1,4 @@
-#Introduction to Artificial Intelligence
+# Introduction to Artificial Intelligence
 
 Artificial Intelligence refers to the field of computer science concerned with creating intelligent agents – systems that can reason, learn, and act autonomously in their environments [1]. These agents mimic human cognitive abilities such as problem-solving, decision-making, and perception to achieve specific goals.
 
@@ -46,3 +46,30 @@ Here are some real-world examples illustrating AI and the PEAS framework:
         - Sensors: Analyzes user data and product information.
 
 These examples demonstrate how AI systems are designed with specific goals (performance) in mind, operate within defined environments, and interact with the environment through actuators and sensors.
+
+## Rationality in AI Agents
+
+According to Russell and Norvig (2021), a cornerstone of AI research is the concept of a rational agent: an entity that acts with the aim of achieving its goals in a way that is optimal within its environment.
+Imagine your friend playing chess. They consider the board, their opponent's moves, and possible strategies before making their next move. This is a form of rationality – making informed decisions to achieve a goal. In AI, we strive to create rational agents that do the same.
+- What it means: An AI agent is rational if it consistently chooses actions that maximize its chances of achieving its goals, given its current perception of the environment.
+- Example: A self-driving car should choose the safest route based on traffic conditions, weather, and its destination. A bad decision could be running a red light to save a few seconds, potentially causing an accident.
+
+### A breakdown of rationality in AI:
+- Decision-making: A rational agent strives to make decisions that maximize its chances of achieving its goals based on its current understanding of the environment.
+- Logical reasoning: Rational agents employ logical reasoning to analyze situations and determine the best course of action.
+- Bounded rationality: In real-world scenarios, agents may exhibit "bounded rationality" due to limitations in processing power, knowledge, or time. This can lead to suboptimal but still effective decisions.
+
+## Components of AI Systems
+AI systems are complex entities composed of various interacting components that mirror the capabilities of an intelligent agent:
+- Agent: The AI system itself, acting as an intelligent entity within the environment.
+- Reasoning: The capability to use logic, knowledge, and perception to draw conclusions and make decisions.
+- Environment: The surroundings in which the agent operates, including all the factors that can influence its actions and perception.
+- Actions: The set of possible actions the agent can take to manipulate the environment or achieve its goals.
+- Perception: The ability to sense and interpret the environment through sensors or other means of information gathering.
+
+Here are some additional details on the core components:
+- Knowledge representation and reasoning (KR&R): This refers to how the AI system stores and manipulates knowledge about the world. Techniques include logic statements, semantic networks, and probability distributions. (Source: Brachman and Levesque, 1985)
+- Learning: AI systems can learn from data through various techniques like supervised learning, unsupervised learning, and reinforcement learning.
+- Problem-solving: The system employs search algorithms, heuristics, and optimization techniques to tackle complex problems and find solutions.
+- Planning and decision-making: AI systems can plan future actions and make decisions based on their knowledge, goals, and perceived environment.
+
